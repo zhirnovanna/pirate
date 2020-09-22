@@ -1,0 +1,67 @@
+header nav 
+{
+	display: flex;
+	justify-content: flex-end;
+	text-indent: 10px;
+	margin-top: 20px;
+	margin-right: 20px;
+
+}
+
+ul
+{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+
+section 
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    top: 26%; left: 50%;
+}
+
+.buttons
+{
+  display: flex;
+  flex-direction: row;
+}
+
+footer
+{
+	background-color: #F6F4F3;
+}
+
+a:hover
+{
+   color: black;
+}
+
+footer nav
+{
+   display: flex;
+   justify-content: space-around;
+}
+
+body 
+{
+    height:590px;
+    margin: auto;
+    font-family: Arial;
+    color:#5F6368;
+    flex-direction: column;
+    justify-content: space-between;
+    display:flex;
+ }
+
+ p
+{
+   display: flex;
+   margin-left: 24px;
+   margin-top: 10px;
+}
+
+
