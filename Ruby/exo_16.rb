@@ -1,13 +1,13 @@
-puts "année de naissance ? "
+puts "How old are you? "
 print "> "
-birth_year = gets.chomp.to_i
-age = 2020 - birth_year
-number = age + 1
-yearAge = 0
+todayAge = gets.chomp.to_i
+birthYear = 2020 - todayAge
+number = todayAge + 1
+year = 0
+
 
 number.times do |i| 
-puts " In #{birth_year} you were #{yearAge} "
-birth_year = birth_year + 1
-yearAge =  yearAge += 1
+puts " Il y a #{year} ans, tu avais #{todayAge} ans"
+todayAge = todayAge - 1
+year =  year += 1
 end
-{}
